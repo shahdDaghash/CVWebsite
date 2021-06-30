@@ -1,0 +1,170 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+
+.personalPic img{
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+	margin-top: 20px;
+}
+
+.allContainer{
+	display: flex;
+	margin: auto;
+}
+
+.leftSide{
+	flex: 1;
+	border: 2px black solid;
+	text-align: center;
+	background-color: #b1e0fb;
+}
+
+.rightSide{
+	flex: 2;
+	border: 2px black solid;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.name{
+	flex: 1;
+	border: 1px black solid;
+	text-align: center;
+	size: 50px;
+	background-color: #b1e0fb;
+
+}
+
+.info{
+	flex: 6;
+	border: 1px black solid;
+	background-color: #F2F3F4;
+}
+
+#Contacth{
+	background-color:#23395d ;
+	color: white;
+	padding: 0;
+}
+
+#socialH{
+	background-color:#23395d ;
+	color: white;
+	padding: 0;
+}
+
+#contact_ul{
+	list-style: none;
+	-webkit-padding-start: 0px;
+}
+
+#phoneNumber{
+	padding-bottom: 20px;
+}
+
+#email{
+	padding-bottom: 20px;
+
+}
+
+i {
+	font-size: 1.3em;
+	padding-right: 10px;
+}
+
+#education{
+	padding: 10px;
+	background-color: #23395d;
+	color: white;
+	margin: unset;
+}
+
+#project{
+	padding: 10px;
+	background-color: #23395d;
+	color: white;
+}
+
+
+.eduul{
+	list-style: none;
+	-webkit-padding-start: 30px;
+}
+
+.projectul{
+	list-style: none;
+	-webkit-padding-start: 30px;
+}
+
+#prog{
+	background-color:#23395d ;
+	color: white;
+	padding: 0;
+}
+
+#progul{
+	list-style: none;
+	-webkit-padding-start: 0px;
+}
+
+#c{
+	padding-bottom: 20px;
+}
+#j{
+	padding-bottom: 20px;
+}
+
+#p{
+	padding-bottom: 20px;
+}
+
+#pcpc{
+	padding-bottom: 20px;
+}
+
+#honors{
+	padding: 10px;
+	background-color: #23395d;
+	color: white;
+	margin: unset;
+}
+
+#time{
+    font-size: 20px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#visitors{
+    font-size: 20px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    display: inline;
+    
+}
+
+#numLabel{
+    font-size: large;
+}
+
+#visit{
+    padding: 15px;
+}
+
+#forVisit{
+    padding-bottom: 20px;
+    display: inline-block;
+
+}
+
+#aboveInfo{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
